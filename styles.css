@@ -1,0 +1,97 @@
+/* Estilo geral */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background: linear-gradient(135deg, #fbe4f1, #fde2ff);
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #f78da7;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin: 10px 0 0;
+}
+
+/* Seções */
+main {
+    padding: 20px;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out;
+}
+
+h2 {
+    color: #d63076;
+    font-size: 1.8rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Reações */
+.reaction-container {
+    margin-top: 10px;
+}
+
+.reaction {
+    font-size: 24px;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.3s;
+    background-color: #f78da7;
+    color: white;
+}
+
+.reaction:hover {
+    transform: scale(1.2);
+    background-color: #d63076;
+}
+
+/* Rodapé */
+footer {
+    background-color: #f78da7;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9rem;
+}
+
+/* Animações */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
